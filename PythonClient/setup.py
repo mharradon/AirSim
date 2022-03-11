@@ -15,13 +15,13 @@ setuptools.setup(
     url="https://github.com/microsoft/airsim",
     packages=setuptools.find_packages(),
 	license='MIT',
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ),
+    ],
     install_requires=[
-         'git+https://github.com/tbelhalfaoui/msgpack-rpc-python.git@fix-msgpack-dep', 
+         'msgpack-rpc-python @ git+https://github.com/tbelhalfaoui/msgpack-rpc-python.git@fix-msgpack-dep', 
          'numpy', 'opencv-contrib-python'
     ]
 )
