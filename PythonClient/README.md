@@ -7,8 +7,9 @@ See examples at [car/hello_car.py](https://github.com/Microsoft/AirSim/blob/mast
 
 ## Dependencies
 This package depends on `msgpack` and would automatically install `msgpack-rpc-python` (this may need administrator/sudo prompt):
+
 ```
-pip install msgpack-rpc-python
+pip install git+https://github.com/tbelhalfaoui/msgpack-rpc-python.git@fix-msgpack-dep
 ```
 
 Some examples also requires opencv.

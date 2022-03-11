@@ -1,4 +1,4 @@
-msgpack-rpc-python
+git+https://github.com/tbelhalfaoui/msgpack-rpc-python.git@fix-msgpack-dep
 numpy
 pyaudio
 opencv-contrib-python

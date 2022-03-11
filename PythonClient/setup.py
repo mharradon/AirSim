@@ -21,6 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ),
     install_requires=[
-          'msgpack-rpc-python', 'numpy', 'opencv-contrib-python'
+         'git+https://github.com/tbelhalfaoui/msgpack-rpc-python.git@fix-msgpack-dep', 
+         'numpy', 'opencv-contrib-python'
     ]
 )
